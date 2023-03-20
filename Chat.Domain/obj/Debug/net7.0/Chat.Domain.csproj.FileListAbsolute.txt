@@ -1,0 +1,15 @@
+C:\Users\lucas\source\repos\Chat\Chat.Domain\bin\Debug\net7.0\Chat.Domain.deps.json
+C:\Users\lucas\source\repos\Chat\Chat.Domain\bin\Debug\net7.0\Chat.Domain.dll
+C:\Users\lucas\source\repos\Chat\Chat.Domain\bin\Debug\net7.0\Chat.Domain.pdb
+C:\Users\lucas\source\repos\Chat\Chat.Domain\bin\Debug\net7.0\Chat.Core.dll
+C:\Users\lucas\source\repos\Chat\Chat.Domain\bin\Debug\net7.0\Chat.Core.pdb
+C:\Users\lucas\source\repos\Chat\Chat.Domain\obj\Debug\net7.0\Chat.Domain.csproj.AssemblyReference.cache
+C:\Users\lucas\source\repos\Chat\Chat.Domain\obj\Debug\net7.0\Chat.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lucas\source\repos\Chat\Chat.Domain\obj\Debug\net7.0\Chat.Domain.AssemblyInfoInputs.cache
+C:\Users\lucas\source\repos\Chat\Chat.Domain\obj\Debug\net7.0\Chat.Domain.AssemblyInfo.cs
+C:\Users\lucas\source\repos\Chat\Chat.Domain\obj\Debug\net7.0\Chat.Domain.csproj.CoreCompileInputs.cache
+C:\Users\lucas\source\repos\Chat\Chat.Domain\obj\Debug\net7.0\Chat.Domain.csproj.CopyComplete
+C:\Users\lucas\source\repos\Chat\Chat.Domain\obj\Debug\net7.0\Chat.Domain.dll
+C:\Users\lucas\source\repos\Chat\Chat.Domain\obj\Debug\net7.0\refint\Chat.Domain.dll
+C:\Users\lucas\source\repos\Chat\Chat.Domain\obj\Debug\net7.0\Chat.Domain.pdb
+C:\Users\lucas\source\repos\Chat\Chat.Domain\obj\Debug\net7.0\ref\Chat.Domain.dll

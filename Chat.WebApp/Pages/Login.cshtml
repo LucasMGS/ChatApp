@@ -1,0 +1,40 @@
+﻿@page
+@model Chat.WebApp.Pages.LoginModel
+@{
+    ViewData["Title"] = "Login";
+}
+
+<h1>Login</h1>
+<form id="loginForm" method="post">
+    <div class="col-md-4">
+        <div>Enter your account!</div>
+        <br />
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="form-group">
+            <label asp-for="LoginUserModel.UserName" class="control-label"></label>
+            <input asp-for="LoginUserModel.UserName" class="form-control"/>
+            <span asp-validation-for="LoginUserModel.UserName" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="LoginUserModel.Password" class="control-label"></label>
+            <input asp-for="LoginUserModel.Password" class="form-control" />
+            <span asp-validation-for="LoginUserModel.Password" class="text-danger"></span>
+        </div>
+        <br />
+        <div class="form-group">
+            <input asp-for="LoginUserModel.RememberMe" />
+            <label asp-for="LoginUserModel.RememberMe" class="control-label"></label>
+            <span asp-validation-for="LoginUserModel.RememberMe" class="text-danger"></span>
+        </div>
+        <br />
+        <button class="btn btn-primary">Login</button>
+    </div>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+
+    }
+}
