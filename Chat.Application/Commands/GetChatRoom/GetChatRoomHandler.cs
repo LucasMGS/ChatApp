@@ -13,9 +13,13 @@ namespace Chat.Application.Commands.GetChatRoom
         }
         public async Task<Result<List<GetChatRoomViewModel>>> Handle(GetChatRoomQuery request, CancellationToken cancellationToken)
         {
-    
+            var chatRooms = _chatRoomRepository
+                                        .Get()
+                                        .OrderBy(x => x.CreatedAt)
+                                        .Select(x => new GetChatRoomViewModel(x.Id,x.Name,x.Owner.Name,x.CreatedAt))
+                                        .ToList();
 
-            return Result.Success(new List<GetChatRoomViewModel>());
+            return Result.Success(chatRooms);
         }
     }
 }

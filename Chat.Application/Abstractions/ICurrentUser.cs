@@ -1,6 +1,6 @@
 ﻿namespace Chat.Application.Abstractions;
 
-public interface IBaseController
+public interface ICurrentUser
 {
     Guid? Id { get; }
 }

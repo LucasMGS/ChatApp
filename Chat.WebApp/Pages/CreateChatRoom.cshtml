@@ -1,0 +1,24 @@
+﻿@page
+@model Chat.WebApp.Pages.CreateChatRoomModel
+@{
+}
+
+<h1 class="text-md-start p-2">Register New Room</h1>
+<form id="createChatRoomFormId" method="post">
+    <div class="container align-content-md-center">
+        <div class="col-md-6">
+            <div class="form-group" >
+                <label asp-for="RegisterChatRoomModel.Name"></label>
+                <input asp-for="RegisterChatRoomModel.Name" class="form-control" />
+                <span asp-validation-for="RegisterChatRoomModel.Name"></span>
+            </div>
+            <div class="form-group mt-2" >
+                <label asp-for="RegisterChatRoomModel.MaxUsers"></label>
+                <input asp-for="RegisterChatRoomModel.MaxUsers" class="form-control" />
+                <span asp-validation-for="RegisterChatRoomModel.MaxUsers"></span>
+            </div>
+            <br />
+            <button class="btn btn-primary btn-sm w-100">Create new ChatRoom</button>
+        </div>
+    </div>
+</form>

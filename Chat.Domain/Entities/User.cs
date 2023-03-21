@@ -16,7 +16,7 @@ namespace Chat.Domain.Entities
         public User(string name, Guid identityUserId) 
         {
             Name = name;
-            IdentityUserId = identityUserId;
+            Id = IdentityUserId = identityUserId;
         }
     }
 }

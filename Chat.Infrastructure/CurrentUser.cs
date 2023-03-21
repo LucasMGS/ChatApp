@@ -1,13 +1,13 @@
 ﻿using Chat.Application.Abstractions;
-using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Http;
 using System.Security.Claims;
 
-namespace Chat.WebApp
+namespace Chat.Infrastructure
 {
-    public class BaseController : Controller, IBaseController
+    public class CurrentUser : ICurrentUser
     {
         public readonly IHttpContextAccessor _acessor;
-        public BaseController(IHttpContextAccessor acessor)
+        public CurrentUser(IHttpContextAccessor acessor)
         {
             _acessor = acessor;
         }

@@ -547,6 +547,7 @@
           "Chat.Application": "1.0.0",
           "Chat.Core": "1.0.0",
           "Chat.Domain": "1.0.0",
+          "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "7.0.3",
           "Microsoft.EntityFrameworkCore": "8.0.0-preview.1.23111.4",
           "Microsoft.Extensions.Configuration": "8.0.0-preview.1.23110.8",

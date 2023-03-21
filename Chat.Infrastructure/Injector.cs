@@ -6,6 +6,7 @@ using Microsoft.EntityFrameworkCore;
 using Chat.Infrastructure.Repositories;
 using Chat.Application;
 using Chat.Domain.Contracts;
+using Chat.Application.Abstractions;
 
 namespace Chat.Infrastructure
 {
@@ -16,7 +17,8 @@ namespace Chat.Infrastructure
             return services
                 .AddMediator()
                 .AddDbContext(configuration)
-                .AddRepositories();
+                .AddRepositories()
+                .AddScoped<ICurrentUser, CurrentUser>();
         }
 
         private static IServiceCollection AddDbContext(this IServiceCollection services,IConfiguration configuration)

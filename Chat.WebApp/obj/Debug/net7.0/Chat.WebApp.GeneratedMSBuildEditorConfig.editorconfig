@@ -16,12 +16,16 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\lucas\source\repos\Chat\Chat.WebApp
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/lucas/source/repos/Chat/Chat.WebApp/Pages/Chat.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hhdC5jc2h0bWw=
+[C:/Users/lucas/source/repos/Chat/Chat.WebApp/Pages/CreateChatRoom.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3JlYXRlQ2hhdFJvb20uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/lucas/source/repos/Chat/Chat.WebApp/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lucas/source/repos/Chat/Chat.WebApp/Pages/HomeChatRoom.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZUNoYXRSb29tLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/lucas/source/repos/Chat/Chat.WebApp/Pages/Index.cshtml]

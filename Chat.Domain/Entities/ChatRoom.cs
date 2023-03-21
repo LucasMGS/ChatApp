@@ -34,7 +34,7 @@ public class ChatRoom : EntityBase
             return Result.Success();
         }
 
-        if(_users.Count == MaxUsers)
+        if(_users.Count >= MaxUsers)
         {
             return Result.WithError(new Error("Chat with max capacity"));
         }

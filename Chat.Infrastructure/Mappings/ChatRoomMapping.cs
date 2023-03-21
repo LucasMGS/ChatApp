@@ -19,6 +19,10 @@ namespace Chat.Infrastructure.Mappings
             builder.HasOne(x => x.Owner)
                 .WithMany()
                 .HasForeignKey(x => x.OwnerId);
+
+            builder.HasMany(x => x.Messages)
+                .WithOne(x => x.ChatRoom)
+                .HasForeignKey(x => x.ChatRoomId);
         }
     }
 }
