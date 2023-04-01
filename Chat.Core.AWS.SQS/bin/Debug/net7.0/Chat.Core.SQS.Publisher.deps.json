@@ -1,0 +1,59 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Chat.Core.SQS.Publisher/1.0.0": {
+        "dependencies": {
+          "AWSSDK.SQS": "3.7.100.99"
+        },
+        "runtime": {
+          "Chat.Core.SQS.Publisher.dll": {}
+        }
+      },
+      "AWSSDK.Core/3.7.106.6": {
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.106.6"
+          }
+        }
+      },
+      "AWSSDK.SQS/3.7.100.99": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.106.6"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.SQS.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.100.99"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Chat.Core.SQS.Publisher/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AWSSDK.Core/3.7.106.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8s5TQQNR7rAMovVbyvmfMTOTIS4aX0TH7nBB5L8TjJbNngX2LCf3q+MrDO/HffEvzT98ZawUsZQHme2PSUa9Bg==",
+      "path": "awssdk.core/3.7.106.6",
+      "hashPath": "awssdk.core.3.7.106.6.nupkg.sha512"
+    },
+    "AWSSDK.SQS/3.7.100.99": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uCKIjuMqnSLvGcyvXvRkQP+iJRXWdD5TKK5RFzpzUjaHwfI27YFpNPUHyQLC0zoQPhIbARaofHeAnEU8K90/0A==",
+      "path": "awssdk.sqs/3.7.100.99",
+      "hashPath": "awssdk.sqs.3.7.100.99.nupkg.sha512"
+    }
+  }
+}

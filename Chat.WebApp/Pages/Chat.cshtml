@@ -1,0 +1,32 @@
+﻿@page
+@model Chat.WebApp.Pages.ChatModel
+@{
+}
+
+@*<h1 class="d-flex justify-content-center mb-3">@Model.ChatMessage.Name</h1>*@
+<input type="hidden" id="chat-id" value="@Model.ChatRoomId" />
+<div class="container d-flex justify-content-center">
+    <div class="border w-50 p-3">
+        
+            <div class="chat-messages ">
+       
+            </div>
+        
+    
+        <form id="sendMessageform" method="post">
+            <div class="d-flex mt-2">
+                <textarea placeholder="Type a message..." class="w-100" rows="3" id="message-area" maxlength="500"></textarea>
+                <button class="w-25 btn btn-outline-primary ms-sm-2" type="submit">Send</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Styles{
+    <link rel="stylesheet" href="~/css/chat/chat.css" />
+}
+
+@section Scripts{
+    <script src="~/lib/microsoft-signalr/signalr.js"></script>
+    <script src="~/js/chat/chat_signalr.js"></script>
+}

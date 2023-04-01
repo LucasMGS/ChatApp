@@ -7,11 +7,11 @@ C:\Users\lucas\source\repos\Chat\Chat.Application\bin\Debug\net7.0\Chat.Applicat
 C:\Users\lucas\source\repos\Chat\Chat.Application\bin\Debug\net7.0\Chat.Application.dll
 C:\Users\lucas\source\repos\Chat\Chat.Application\bin\Debug\net7.0\Chat.Application.pdb
 C:\Users\lucas\source\repos\Chat\Chat.Application\bin\Debug\net7.0\Chat.Core.dll
+C:\Users\lucas\source\repos\Chat\Chat.Application\bin\Debug\net7.0\Chat.Domain.dll
 C:\Users\lucas\source\repos\Chat\Chat.Application\bin\Debug\net7.0\Chat.Core.pdb
+C:\Users\lucas\source\repos\Chat\Chat.Application\bin\Debug\net7.0\Chat.Domain.pdb
 C:\Users\lucas\source\repos\Chat\Chat.Application\obj\Debug\net7.0\Chat.Application.csproj.CopyComplete
 C:\Users\lucas\source\repos\Chat\Chat.Application\obj\Debug\net7.0\Chat.Application.dll
 C:\Users\lucas\source\repos\Chat\Chat.Application\obj\Debug\net7.0\refint\Chat.Application.dll
 C:\Users\lucas\source\repos\Chat\Chat.Application\obj\Debug\net7.0\Chat.Application.pdb
 C:\Users\lucas\source\repos\Chat\Chat.Application\obj\Debug\net7.0\ref\Chat.Application.dll
-C:\Users\lucas\source\repos\Chat\Chat.Application\bin\Debug\net7.0\Chat.Domain.dll
-C:\Users\lucas\source\repos\Chat\Chat.Application\bin\Debug\net7.0\Chat.Domain.pdb

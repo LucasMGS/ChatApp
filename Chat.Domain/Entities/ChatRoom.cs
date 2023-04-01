@@ -47,4 +47,9 @@ public class ChatRoom : EntityBase
     {
         _messages.Add(messageObj);
     }
+
+    public bool ContainsUser(Guid userId)
+    {
+        return _users.Any(u => u.UserId == userId);
+    }
 }

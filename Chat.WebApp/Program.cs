@@ -1,5 +1,6 @@
 using Chat.Infrastructure;
 using Chat.WebApp.Configurations;
+using Chat.WebApp.Hubs;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -7,6 +8,8 @@ builder.Services.AddRazorPages();
 builder.Services.AddControllersWithViews();
 
 builder.Services.AddAuth();
+
+builder.Services.AddSignalR();
 builder.Services.InjectApiServices(builder.Configuration);
 
 builder.Services.AddControllers();
@@ -44,6 +47,8 @@ app.UseRouting();
 
 app.UseAuthentication();
 app.UseAuthorization();
+
+app.MapHub<ChatHub>("/Chat/Hub");
 
 app.MapRazorPages();
 

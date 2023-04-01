@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "b4Yj6mBTAZ8q+cmzdySkBPqJo3Fn4cj2GEcxhVq8g0g=",
+  "Source": "Chat.Core.SQS.Consumer",
+  "BasePath": "_content/Chat.Core.SQS.Consumer",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

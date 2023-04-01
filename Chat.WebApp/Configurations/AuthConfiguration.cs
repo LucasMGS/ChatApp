@@ -1,7 +1,6 @@
 ﻿using Chat.Infrastructure.Context;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Identity;
-using System.Runtime.CompilerServices;
 
 namespace Chat.WebApp.Configurations
 {

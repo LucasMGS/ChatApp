@@ -23,7 +23,7 @@ namespace Chat.Infrastructure.Repositories
 
         public IQueryable<TEntity> GetAsNoTracking() => _chatContext.Set<TEntity>().AsNoTracking();
 
-        public Task SaveChangesAsync(CancellationToken cancellationToken) => _chatContext.SaveChangesAsync(cancellationToken);
+        public Task<int> SaveChangesAsync(CancellationToken cancellationToken) => _chatContext.SaveChangesAsync(cancellationToken);
 
         public void Update(TEntity entity)
         {

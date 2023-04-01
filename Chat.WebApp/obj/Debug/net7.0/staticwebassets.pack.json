@@ -5,12 +5,24 @@
       "PackagePath": "staticwebassets\\Chat.WebApp.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\lucas\\source\\repos\\Chat\\Chat.WebApp\\wwwroot\\css\\chat\\chat.css",
+      "PackagePath": "staticwebassets\\css\\chat\\chat.css"
+    },
+    {
       "Id": "C:\\Users\\lucas\\source\\repos\\Chat\\Chat.WebApp\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "C:\\Users\\lucas\\source\\repos\\Chat\\Chat.WebApp\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\source\\repos\\Chat\\Chat.WebApp\\wwwroot\\js\\chat\\chat_signalr.js",
+      "PackagePath": "staticwebassets\\js\\chat\\chat_signalr.js"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\source\\repos\\Chat\\Chat.WebApp\\wwwroot\\js\\chat\\index.js",
+      "PackagePath": "staticwebassets\\js\\chat\\index.js"
     },
     {
       "Id": "C:\\Users\\lucas\\source\\repos\\Chat\\Chat.WebApp\\wwwroot\\js\\site.js",
@@ -243,6 +255,10 @@
     {
       "Id": "C:\\Users\\lucas\\source\\repos\\Chat\\Chat.WebApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\source\\repos\\Chat\\Chat.WebApp\\wwwroot\\lib\\microsoft-signalr\\signalr.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft-signalr\\signalr.js"
     },
     {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Chat.WebApp.Microsoft.AspNetCore.StaticWebAssets.props",

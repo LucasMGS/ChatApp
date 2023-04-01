@@ -6,8 +6,10 @@ C:\Users\lucas\source\repos\Chat\Chat.Infrastructure\obj\Debug\net7.0\Chat.Infra
 C:\Users\lucas\source\repos\Chat\Chat.Infrastructure\bin\Debug\net7.0\Chat.Infrastructure.deps.json
 C:\Users\lucas\source\repos\Chat\Chat.Infrastructure\bin\Debug\net7.0\Chat.Infrastructure.dll
 C:\Users\lucas\source\repos\Chat\Chat.Infrastructure\bin\Debug\net7.0\Chat.Infrastructure.pdb
+C:\Users\lucas\source\repos\Chat\Chat.Infrastructure\bin\Debug\net7.0\Chat.Application.dll
 C:\Users\lucas\source\repos\Chat\Chat.Infrastructure\bin\Debug\net7.0\Chat.Core.dll
 C:\Users\lucas\source\repos\Chat\Chat.Infrastructure\bin\Debug\net7.0\Chat.Domain.dll
+C:\Users\lucas\source\repos\Chat\Chat.Infrastructure\bin\Debug\net7.0\Chat.Application.pdb
 C:\Users\lucas\source\repos\Chat\Chat.Infrastructure\bin\Debug\net7.0\Chat.Core.pdb
 C:\Users\lucas\source\repos\Chat\Chat.Infrastructure\bin\Debug\net7.0\Chat.Domain.pdb
 C:\Users\lucas\source\repos\Chat\Chat.Infrastructure\obj\Debug\net7.0\Chat.Infrastructure.csproj.CopyComplete
@@ -15,7 +17,3 @@ C:\Users\lucas\source\repos\Chat\Chat.Infrastructure\obj\Debug\net7.0\Chat.Infra
 C:\Users\lucas\source\repos\Chat\Chat.Infrastructure\obj\Debug\net7.0\refint\Chat.Infrastructure.dll
 C:\Users\lucas\source\repos\Chat\Chat.Infrastructure\obj\Debug\net7.0\Chat.Infrastructure.pdb
 C:\Users\lucas\source\repos\Chat\Chat.Infrastructure\obj\Debug\net7.0\ref\Chat.Infrastructure.dll
-C:\Users\lucas\source\repos\Chat\Chat.Infrastructure\bin\Debug\net7.0\Chat.Infrastructure.runtimeconfig.json
-C:\Users\lucas\source\repos\Chat\Chat.Infrastructure\obj\Debug\net7.0\Chat.Infrastructure.genruntimeconfig.cache
-C:\Users\lucas\source\repos\Chat\Chat.Infrastructure\bin\Debug\net7.0\Chat.Application.dll
-C:\Users\lucas\source\repos\Chat\Chat.Infrastructure\bin\Debug\net7.0\Chat.Application.pdb

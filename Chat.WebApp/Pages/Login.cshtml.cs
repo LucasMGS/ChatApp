@@ -34,7 +34,7 @@ public class LoginModel : PageModel
                 .PasswordSignInAsync(LoginUserModel.UserName, LoginUserModel.Password, LoginUserModel.RememberMe, false);
         if (result.Succeeded)
         {
-            returnUrl ??= Url.Content("/Chat");
+            returnUrl ??= Url.Content("/HomeChatRoom");
             _logger.LogInformation("User {0} logged in", LoginUserModel.UserName);
 
             return LocalRedirect(returnUrl);

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "DsDkeRUtsD9NVedWmPw3hj/C2evF8w95Ul0ev7oboPs=",
+  "Hash": "HrdwvFGPk8fje7mMwQ6QN7bjw+JwRvR8RCiUwnw13kA=",
   "Source": "Chat.WebApp",
   "BasePath": "_content/Chat.WebApp",
   "Mode": "Default",
@@ -1071,6 +1071,23 @@
       "OriginalItemSpec": "C:\\Users\\lucas\\source\\repos\\Chat\\Chat.WebApp\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Chat.WebApp.bundle.scp.css"
     },
     {
+      "Identity": "C:\\Users\\lucas\\source\\repos\\Chat\\Chat.WebApp\\wwwroot\\css\\chat\\chat.css",
+      "SourceId": "Chat.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lucas\\source\\repos\\Chat\\Chat.WebApp\\wwwroot\\",
+      "BasePath": "_content/Chat.WebApp",
+      "RelativePath": "css/chat/chat.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\chat\\chat.css"
+    },
+    {
       "Identity": "C:\\Users\\lucas\\source\\repos\\Chat\\Chat.WebApp\\wwwroot\\css\\site.css",
       "SourceId": "Chat.WebApp",
       "SourceType": "Discovered",
@@ -1103,6 +1120,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\lucas\\source\\repos\\Chat\\Chat.WebApp\\wwwroot\\js\\chat\\chat_signalr.js",
+      "SourceId": "Chat.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lucas\\source\\repos\\Chat\\Chat.WebApp\\wwwroot\\",
+      "BasePath": "_content/Chat.WebApp",
+      "RelativePath": "js/chat/chat_signalr.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\chat\\chat_signalr.js"
+    },
+    {
+      "Identity": "C:\\Users\\lucas\\source\\repos\\Chat\\Chat.WebApp\\wwwroot\\js\\chat\\index.js",
+      "SourceId": "Chat.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lucas\\source\\repos\\Chat\\Chat.WebApp\\wwwroot\\",
+      "BasePath": "_content/Chat.WebApp",
+      "RelativePath": "js/chat/index.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\chat\\index.js"
     },
     {
       "Identity": "C:\\Users\\lucas\\source\\repos\\Chat\\Chat.WebApp\\wwwroot\\js\\site.js",
@@ -2089,6 +2140,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\lucas\\source\\repos\\Chat\\Chat.WebApp\\wwwroot\\lib\\microsoft-signalr\\signalr.js",
+      "SourceId": "Chat.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lucas\\source\\repos\\Chat\\Chat.WebApp\\wwwroot\\",
+      "BasePath": "_content/Chat.WebApp",
+      "RelativePath": "lib/microsoft-signalr/signalr.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\microsoft-signalr\\signalr.js"
     }
   ]
 }
