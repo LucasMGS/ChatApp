@@ -35,7 +35,7 @@ namespace Chat.WebApp.Pages
             {
                 return Page();
             }
-            return LocalRedirect("~/Chat");
+            return LocalRedirect("~/HomeChatRoom");
         }
     }
 }

@@ -17,7 +17,7 @@ namespace Chat.Application.Queries.GetChatRoom
             var chatRooms = await _chatRoomRepository
                                         .Get()
                                         .OrderBy(x => x!.CreatedAt)
-                                        .Select(x => new GetChatRoomViewModel(x!.Id, x.Name, x.Owner!.Name, x.CreatedAt))
+                                        .Select(x => new GetChatRoomViewModel(x!.Id, x.Name, x.Owner!.Name, x.CreatedAt,x.MaxUsers,x.Users.Count()))
                                         .ToListAsync();
 
             return Result.Success(chatRooms);

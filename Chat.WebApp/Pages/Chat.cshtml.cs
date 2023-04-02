@@ -2,6 +2,7 @@ using Chat.Application.Commands.SendChatMessage;
 using Chat.Application.Queries.GetChatMessage;
 using Chat.Application.Shared;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
@@ -21,12 +22,16 @@ public class ChatModel : PageModel
 
     [BindProperty]
     public ChatMessageViewModel ChatMessage { get; set; }
-    [BindProperty]
-    public string ChatName { get; set; }
 
     public async Task<IActionResult> OnGetAsync(Guid id)
     {
         ChatRoomId = id;
-        return Page();
+        var result = await _mediator.Send(new GetChatMessageQuery(ChatRoomId));
+        if (result.IsSuccess)
+        {
+            ChatMessage = result.Value;
+            return Page();
+        }
+        return BadRequest();
     }
 }

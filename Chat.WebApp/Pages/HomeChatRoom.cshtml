@@ -16,22 +16,22 @@
         <div class="row">
         @foreach(var chatRoom in Model.ChatRooms)
         {
-                <div class="col-sm-6 mb-3 mb-sm-0">                            
-                    <div class="card text-center mb-3">
-                        <div class="card-body">
-                            <h5 class="card-title">@chatRoom.Name</h5>
-                            <p class="card-text">Created by @chatRoom.OwnerName</p>
-                            <form method="post">
-                                <input type="hidden" asp-for="@Model.ChatID" name="chatId" value="@chatRoom.Id" />
-                                <button type="submit"  class="btn btn-warning">Join room</button>
-                            </form>
-                            <div class="d-flex justify-content-between mt-3 card-footer">
-                                <p class="text-start small">Users: 10</p>
-                                <p class="text-end small">Created at @chatRoom.CreatedAt.Date.ToShortDateString()</p>
-                            </div>
+            <div class="col-sm-6 mb-3 mb-sm-0">                            
+                <div class="card text-center mb-3">
+                    <div class="card-body">
+                        <h5 class="card-title">@chatRoom.Name</h5>
+                        <p class="card-text">Created by @chatRoom.OwnerName</p>
+                        <form method="post">
+                            <input type="hidden" asp-for="@Model.ChatID" name="chatId" value="@chatRoom.Id" />
+                            <button type="submit"  class="btn btn-dark">Join room</button>
+                        </form>
+                        <div class="d-flex justify-content-between mt-3 card-footer">
+                            <p class="text-start small">Users: @chatRoom.MaxUsers</p>
+                            <p class="text-end small">Created at @chatRoom.CreatedAt.Date.ToShortDateString()</p>
                         </div>
                     </div>
                 </div>
+            </div>
         }
         </div>    
     </div>

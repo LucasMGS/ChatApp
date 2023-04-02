@@ -12,7 +12,10 @@ namespace Chat.Infrastructure
             _acessor = acessor;
         }
         public Guid? Id => ObterId();
-
+        private void x()
+        {
+            //_acessor.HttpContext.User.Identities.Any(x => x.HasClaim)
+        }
         public bool? IsAuthenticated => _acessor.HttpContext?.User?.Identity?.IsAuthenticated;
 
         private Guid? ObterId()

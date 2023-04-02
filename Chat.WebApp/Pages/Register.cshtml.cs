@@ -34,6 +34,7 @@ public class RegisterModel : PageModel
         {
             return Page();
         }
+
         CreateUserCommand createUserCommand = new CreateUserCommand(RegisterUserModel.Name, RegisterUserModel.Email, RegisterUserModel.Password);
         var result = await _mediator.Send(createUserCommand, default);
         if (!result.IsSuccess)

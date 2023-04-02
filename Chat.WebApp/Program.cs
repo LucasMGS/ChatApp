@@ -4,7 +4,12 @@ using Chat.WebApp.Hubs;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddRazorPages();
+builder.Services.AddRazorPages(options =>
+{
+    options.Conventions.AuthorizePage("/HomeChatRoom");
+    options.Conventions.AllowAnonymousToPage("/Login");
+    options.Conventions.AllowAnonymousToPage("/Register");
+});
 builder.Services.AddControllersWithViews();
 
 builder.Services.AddAuth();
@@ -12,8 +17,8 @@ builder.Services.AddAuth();
 builder.Services.AddSignalR();
 builder.Services.InjectApiServices(builder.Configuration);
 
-builder.Services.AddControllers();
 
+builder.Services.AddControllers();
 var app = builder.Build();
 
 if (!app.Environment.IsDevelopment())

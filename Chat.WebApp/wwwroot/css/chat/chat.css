@@ -8,7 +8,6 @@
     flex-direction: column
 }
 
-
 .chat-message-sender{
     color: black;
     align-self: flex-start;
@@ -20,7 +19,6 @@
     align-self: flex-start;
     padding-right: 5px;
 }
-
 
 .message-header{
     display: flex;

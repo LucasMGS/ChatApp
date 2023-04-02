@@ -3,16 +3,26 @@
 @{
 }
 
-@*<h1 class="d-flex justify-content-center mb-3">@Model.ChatMessage.Name</h1>*@
+<h1 class="d-flex justify-content-center mb-3">@Model.ChatMessage.Name</h1>
 <input type="hidden" id="chat-id" value="@Model.ChatRoomId" />
 <div class="container d-flex justify-content-center">
     <div class="border w-50 p-3">
         
-            <div class="chat-messages ">
-       
-            </div>
+        <div class="chat-messages ">
+            @foreach (var message in Model.ChatMessage.MessagesInfo)
+            {
+                <div class="chat-message-header">
+                    <div class="message-header"> 
+                        <p class="chat-message-sender">@message.UserName:</p>
+                        <label class="chat-message-time">@message.SentAtString</label>
+                    </div>
+                    <p class="chat-message-text">@message.Message</p>         
+                </div>
+            }
+             
+        </div>
+
         
-    
         <form id="sendMessageform" method="post">
             <div class="d-flex mt-2">
                 <textarea placeholder="Type a message..." class="w-100" rows="3" id="message-area" maxlength="500"></textarea>

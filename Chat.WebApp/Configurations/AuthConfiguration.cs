@@ -10,12 +10,12 @@ namespace Chat.WebApp.Configurations
         {
             services.AddIdentity();
 
-            services.Configure<CookieAuthenticationOptions>(IdentityConstants.ApplicationScheme,options =>
+            services.Configure<CookieAuthenticationOptions>(IdentityConstants.ApplicationScheme, options =>
             {
                 options.Cookie.Name = "chatAuth";
                 options.LoginPath = "/login";
                 options.LogoutPath = "/logout";
-                options.ExpireTimeSpan= TimeSpan.FromMinutes(30);
+                options.ExpireTimeSpan = TimeSpan.FromMinutes(30);
                 options.SlidingExpiration = true;
             });
             return services;
